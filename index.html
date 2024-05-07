@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link BS 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS Animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" 
+    rel="stylesheet">
+    <!-- WOW JS -->
+    <link rel="stylesheet" href=".css/animate.css">
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Costa Bonita - Villa gesell</title>
+</head>
+<body>
+    <header class="fixed-top" >
+        <!-- Carousel PROMOCIONES-->
+        <div class="carousel slide"  data-bs-ride="carousel">
+            <!-- CARROUSEL -->
+            <div class="carousel-inner carousel-top">
+                <div class="carousel-item active">
+                    <h3>10% de descuento pagando en Efectivo</h3>
+                </div>
+                <div class="carousel-item">
+                    <h3>3 Cuotas sin interes con VISA, MASTERCARD</h3>
+                </div>
+                <div class="carousel-item">
+                    <h3>Estacionamiento sin cargo</h3>
+                </div>
+            </div>            
+        </div>
+        <nav class="navbar navbar-expand-sm sticky-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)"><img src="./img/logo_color.png" height="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./pages/tienda.html" role="button" data-bs-toggle="dropdown">Habitaciones</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/tienda.html">Dobles</a></li>
+                    <li><a class="dropdown-item" href="./pages/tienda.html">Triples</a></li>
+                    <li><a class="dropdown-item" href="./pages/tienda.html">Cuádruples</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/sucursales.html">Promociones</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+                <form class="d-flex">                                    
+                    <a href="#" class="boton-accion"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="boton-accion"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#" class="boton-accion"><i class="fa-solid fa-location-dot"></i></a>
+
+                </form>
+            </div>
+            </div>
+        </nav>
+</header>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- SLIDER -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="img1"></div>  
+            <div class="carousel-caption">
+                <h3>Hostería</h3>
+                <h1>Costa bonita</h1>
+                <p>Villa gesell te está esperando!</p>
+                <a href="#nosotros" class="btn rounded-pill btn-lg">Conocénos</a>
+            </div>
+        </div>  
+        <div class="carousel-item">
+            <div class="img2"></div>  
+            <div class="carousel-caption">
+                <h2>Hostería</h2>
+                
+                <p>Envios a todo el país</p>
+                <a href="./pages/tienda.html" class="boton-call">Visitá la tienda </a>
+            </div>
+        </div>  
+        <div class="carousel-item">
+            <div class="img3"></div>  
+            <div class="carousel-caption">
+                <h3>Costa bonita <span>Villa gesell</span></h3>
+                <p>Envios a todo el país</p>
+                <a href="./pages/tienda.html" class="boton-call">Visitá la tienda </a>
+            </div>
+        </div>  
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+</div>
+
+<section class="about p-5  bg-about" id="nosotros">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-lg-6 col-12" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0">
+                <div class="about-descipcion text-white">
+                    <h5>Descubrí la experiencia única de <br></h5>
+                    <img src="./img/logo_grande_blanco.png" width="90%"  alt="">
+                    <p>Ubicados en la Av. 104, a un paso de la peatonal y a solo 350 metros del mar, la Hostería Costa Bonita es el punto ideal tanto para aventureros como para quienes buscan paz. Podés disfrutar de deportes acuáticos, trekking, mountain bike y más. Animate a explorar las dunas en cuatriciclo o experimentá la emoción de volar en parapente, disfrutando de vistas espectaculares de Villa Gesell. Vení a vivir una estadía única, entre adrenalina y tranquilidad.
+
+
+                        
+                    </p>
+                </div>
+                <a href="#habitaciones" class="btn rounded-pill btn-about btn-lg">Conocénos</a>
+            </div>
+            <div class="col-lg-6 col-12 mt-4" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
+                <div class="row">
+                    <div class="col-lg-6 col-6">
+                        <img src="./img/img_2.jpg" alt="" width="100%" class="rounded">
+                    </div>
+                    <div class="col-lg-6 col-6">
+                        <img src="./img/img_2.jpg" alt=""  width="100%"  class="rounded">
+                    </div>
+                    <div class="col-lg-12 col-12 mt-4">
+                        <img src="./img/portada.jpg" alt=""  width="100%"  class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<section class="habitaciones">
+    <div class="container">
+        
+
+        <h3 class="text-center mt-4 underline">Nuestras opciones</h3>
+        <h2 class="text-center" data-aos="fade-down">Habitaciones</h2>
+        <div class="row" data-aos="zoom-in" data-aos-duration="800">
+            <div class="col-lg-4 col-12 mt-4">
+                <div class="card ml-20 ">
+                    <img class="card-img-top" src="./img/img_2.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title text-center text-white">Dobles</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 mt-4">
+                <div class="card ml-20">
+                    <img class="card-img-top" src="./img/img_4.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title text-center text-white">Triples</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 mt-4">
+                <div class="card ml-20">
+                    <img class="card-img-top" src="./img/img_2.jpg" alt="Card image">
+                    <div class="card-body">
+                    <h4 class="card-title text-center text-white">Cuadruples</h4>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <h3 class="text-center mt-4 mb-4">Todas las habitaciones cuentan con</h3>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-wifi"></i></h4>
+                    <p>Wifi</p>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-tv"></i></h4>
+                    <p>Tv por Cable</p>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-bath"></i></h4>
+                    <p>Baño privado</p>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-wind"></i></h4>
+                    <p>Aire acondicionado</p>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-fire"></i></h4>
+                    <p>Calefacción</p>
+                </div>
+
+            </div>
+            <div class=" col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-bell-concierge"></i></h4>
+                    <p>Servicio Limpieza</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-shield-halved"></i></h4>
+                    <p>Seguridad 24Hrs</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="feature-item">
+                    <h4><i class="fa-solid fa-bed"></i></h4>
+                    <p>Colchon somier</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+<section class="galeria">
+    <div class="item item1"></div>
+    <div class="item item2"></div>
+    <div class="item item3"></div>
+    <div class="item item4"></div>
+    <div class="item item5"></div>
+    <div class="item item6"></div>
+    <div class="item item7"></div>
+    <div class="item item8"></div>
+
+</section>
+
+<!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Script BS 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

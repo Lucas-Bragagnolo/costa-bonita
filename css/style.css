@@ -1,0 +1,396 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&display=swap');
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.montaga-regular {
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pt-sans-caption-regular {
+font-family: "PT Sans Caption", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.pt-sans-caption-bold {
+font-family: "PT Sans Caption", sans-serif;
+font-weight: 700;
+font-style: normal;
+}  
+
+  /* SCROLL BAR */
+  ::-webkit-scrollbar{
+    width: 10px;
+    background-color: #222222;    
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: #f6f6f6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body {
+    
+    font-family: "Montserrat";
+}
+p{
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+.carousel-inner h3{
+    font-family: "Montaga", serif;
+}
+.carousel-top h3{
+    font-family: "Montserrat";
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+
+/*MENU */
+    /* top BAR */
+    .carousel-item h3{
+        background-color: #206E63;
+        color: #f6f6f6;
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 0px;
+    }
+
+    .navbar {
+        background-color: #f6f6f6;
+        font-family: "Montserrat";
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-brand:hover {
+        transform: scale(1.09);
+        transition: 0.3s;
+    }
+    
+    .navbar-toggler {
+        border: 0px;
+    }
+    .navbar-toggler:hover {
+        transform: scale(1.1);
+        transition: 0.3s
+    }
+
+
+
+    .navbar a.navbar-brand{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* NAV BAR */
+    .navbar-collapse {
+        font-size: 20px;
+        transition: 0.2s;
+        
+    }
+    .navbar-nav{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .navbar-collapse .active{
+        font-weight: 800;
+        
+    }
+
+    .navbar-collapse a:hover{
+        transform: scale(1.05);
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .boton-accion{
+        
+        height: 40px;
+        width: 40px;
+        background-color: #f6f6f6;
+        color: #206E63;
+        text-align: left;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 40px;
+        border-radius: 50%;
+        border: 1px solid #206E63;
+        padding: 0px 10px;
+        margin-right: 5px;
+        text-align: center;
+        transition: 0.5s;
+        
+    }
+    .boton-accion:hover{
+        background-color: #206E63;
+        color: #f6f6f6;
+    }
+
+    .dropdown-menu {
+        padding: 10px;
+        background-color: #206E63;
+        border: 1px solid #f6f6f6;
+    }
+
+    .dropdown-item {
+        color: #f6f6f6;
+    }
+
+        /* CAROUSEL */
+        .carousel-principal{
+            margin-top: 50px;
+        }
+        .img1 {
+            background-image: url(../img/portada.jpg);
+            background-position: center;
+            height: 100vh;
+            background-size: cover;
+        }
+        .img2 {
+            background-image: url(../img/portada.jpg);
+            background-position: center;
+            height: 100vh;
+            background-size: cover;
+        }
+        .img3 {
+            background-image: url(../img/portada.jpg);
+            background-position: center;
+            height: 100vh;
+            background-size: cover;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            width: 50%;
+            text-align: left;
+        }
+
+        .carousel-caption h3 {
+            text-align: left;
+            font-size: 50px;
+            font-weight: 400;
+            font-style: normal;    
+            background-color: rgba(0, 0, 0, 0.0);   
+        }
+        .carousel-caption p{
+            text-align: left;
+    
+        }
+    
+        .carousel-caption a {
+            background-color: #f6f6f6;
+            color: #222222;
+            padding: 10px;
+            text-align: left;
+            text-decoration: none;
+        }
+
+
+        .back-primary {
+            background-color: #206E63;
+        }
+
+        /* ABOUT */
+        h1 span{
+            font-size: 20px;
+        }
+        .img-about {
+            background-image: url(../img/portada.jpg);
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .bg-about {
+            background-image: url(../img/fondo-about-mobile.jpg);
+            background-position: bottom;
+            background-size: cover;            
+        }
+        .btn-about {
+            background-color: #f6f6f6;
+            color: #206E63; 
+            transition: 0.2s;           
+        }
+        .btn-about:hover {
+            border: 2px solid #f6f6f6;
+            transform: scale(1.09);
+            color: #f6f6f6;
+        }
+        .about p{
+            width: 100%;
+        }
+/* Habitaciones */
+        .card {
+            transition: 0.4s;  
+            border: 0px;  
+            background-image: linear-gradient(to bottom left, #206E63, rgb(76, 223, 154));
+        
+        }
+        .card:hover{
+            transform: scale(1.05);
+        }
+        h3{
+            font-size: 16px;            
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .habitaciones h2{
+            font-family: "Montaga", serif;
+            font-size: 50px;
+        }
+
+        
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 180px);
+    grid-template-areas: 
+    "img1 img2 img3 img3"
+    "img1 img4 img5 img6"
+    "img7 img4 img8 img8";
+    gap: 5px;
+    padding: 20px;
+
+}
+
+.item{     
+    border-radius: 10px; 
+    background-size: cover;
+    background-position: top; 
+    box-shadow:
+    5.3px 2.8px 8.2px -55px rgba(0, 0, 0, 0.059),
+    13.3px 7.1px 20.7px -55px rgba(0, 0, 0, 0.084),
+    27.1px 14.5px 42.2px -55px rgba(0, 0, 0, 0.106),
+    55.8px 29.9px 86.9px -55px rgba(0, 0, 0, 0.131),
+    153px 82px 238px -55px rgba(0, 0, 0, 0.19)
+    ;
+    
+    transition: 0.5s;
+}
+
+.item:hover {
+    
+    transform: scale(1.01);
+}
+
+
+
+.item1 {
+    grid-area: img1;
+    background-image: url(../img/img_2.jpg);
+
+}
+
+.item2 {
+    grid-area: img2;
+    background-image: url(../img/img_2.jpg);
+
+}
+.item3 {
+    grid-area: img3;
+    background-image: url(../img/img_4.jpg);
+
+}
+
+.item4 {
+    grid-area: img4;
+    background-image: url(../img/img_5.jpg);
+
+}
+.item5 {
+    grid-area: img5;
+    background-image: url(../img/img_4.jpg);
+}
+
+.item6 {
+    grid-area: img6;
+    background-image: url(../img/img_2.jpg);
+
+}
+.item7 {
+    grid-area: img7;
+    background-image: url(../img/portada.jpg);
+}
+.item8 {
+    grid-area: img8;
+    background-image: url(../img/img_5.jpg);
+
+}
+
+.feature-item {
+    padding-top: 20px;    
+    background-color: #f6f6f6;
+    box-shadow:
+    0.8px 0.8px 1.9px rgba(0, 0, 0, 0.018),
+    1.9px 1.9px 4.3px rgba(0, 0, 0, 0.026),
+    3.4px 3.5px 7.7px rgba(0, 0, 0, 0.032),
+    5.6px 5.8px 12.8px rgba(0, 0, 0, 0.038),
+    9.3px 9.5px 21.2px rgba(0, 0, 0, 0.044),
+    16.2px 16.6px 37px rgba(0, 0, 0, 0.052),
+    35px 36px 80px rgba(0, 0, 0, 0.07);
+    height: 80%; 
+    padding-bottom: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.feature-item:hover {
+    transform: scale(1.09);
+    background-image: linear-gradient(to bottom left, #206E63, rgb(76, 223, 154));    color:#f6f6f6;
+    
+}
+
+.feature-item:hover h4{
+    color: #f6f6f6;
+}
+
+.feature-item h4{
+    text-align: center;  
+    font-size: 30px; 
+    color: #206E63
+}
+.feature-item p{
+    text-align: center;
+}
+
+        @media only screen and (min-width: 768px) {
+            .bg-about {
+                background-image: url(../img/fondo-about.jpg);
+                background-attachment: fixed;
+            }
+            .about p{
+                width: 80%;
+            }
+
+            .habitaciones h2{
+                font-family: "Montaga", serif;
+                font-size: 60px;
+            }
+        }
+        
+
