@@ -64,13 +64,7 @@ p{
     margin-bottom: 40px;
 }
 
-.bg-testimonial {
-    background-image: linear-gradient(45deg, rgba(73, 73, 73, 0.4), rgba(0, 0, 0, 0.7)), url(../img/portada.jpg);
-    background-position: center;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 /*MENU */
     /* top BAR */
@@ -176,19 +170,19 @@ p{
         .img1 {
             background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/portada.jpg);
             background-position: center;
-            height: 90vh;
+            height: 100vh;
             background-size: cover;
         }
         .img2 {
             background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slider_2.jpg);
             background-position: center;
-            height: 90vh;
+            height: 100vh;
             background-size: cover;
         }
         .img3 {
             background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/portada.jpg);
             background-position: center;
-            height: 80vh;
+            height: 100vh;
             background-size: cover;
         }
 
@@ -274,7 +268,7 @@ p{
         .card:hover{
             transform: scale(1.05);
         }
-        h3{
+        .habitaciones h3{
             font-size: 16px;            
         }
 
@@ -406,6 +400,21 @@ p{
 }
 
 /* TESTIMONIAL */
+
+    .testimonials h2{
+        font-size: 50px;
+        font-family: "Montaga", serif;
+    }
+    .testimonials h3 {
+        font-size: 16px;
+    }
+    .bg-testimonial {
+        background-image: linear-gradient(45deg, rgba(73, 73, 73, 0.4), rgba(0, 0, 0, 0.7)), url(../img/portada.jpg);
+        background-position: center;
+        height: auto;
+        background-size: cover;
+        background-attachment: fixed;
+    }
     .testimonial-card {
         width: 100%;
         background-color: rgba(255, 255, 255, 0.5);
@@ -413,7 +422,9 @@ p{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        padding: 10px;
+        padding: 20px;
+        border-radius: 10px
+        
         
     }
     .testimonial-img{
@@ -427,6 +438,24 @@ p{
         background-position: center;
         background-size: cover;
 
+    }
+
+    .testimonial-card h3 {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .testimonal-desc p {
+        padding: 0px 10px;
+        height: 200px;
+    }
+
+    
+
+    .puntuacion {
+        color : goldenrod;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     
 
@@ -453,6 +482,32 @@ footer h3{
 }
 .redes {
     margin-left: 30px;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366; /* Color de WhatsApp */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.floating-button a{
+    color: #f6f6f6;
+    font-size: 35px;
+}
+
+.floating-button:hover {
+    transform: scale(1.09);
+    transition: 0.3s;
 }
 
         @media only screen and (min-width: 768px) {
@@ -501,6 +556,7 @@ footer h3{
             .img3 {
                 height: 100vh;
             }
+
         }
         
 
