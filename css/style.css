@@ -188,12 +188,12 @@ p{
             
         }
         .carousel-caption h2{
-            font-size: 60px;
+            font-size: 30px;
             text-align: center;
         }
         .carousel-caption h3 {
             text-align: center;
-            font-size: 50px;
+            font-size: 20px;
             font-weight: 400;
             font-style: normal;    
             margin-bottom: 20px;
@@ -276,13 +276,14 @@ p{
         
 .galeria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 180px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 180px);
     grid-template-areas: 
-    "img1 img2 img5"
-    "img1 img4 img5"
-    "img7 img4 img8"
-    "img3 img6 img8";
+    "img1 img3 "
+    "img1 img2 "
+    "img5 img2 "
+    "img4 img7 "
+    "img4 img8 ";
     gap: 5px;
     padding: 20px;
 
@@ -441,8 +442,11 @@ footer h3{
                 padding: 20px;
             
             }
-            .mt-20{
-                margin-top: 20px;
+            .carousel-caption h2{
+                font-size: 60px;
+            }
+            .carousel-caption h3 {
+                font-size: 40px;
             }
         }
         
