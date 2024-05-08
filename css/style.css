@@ -163,36 +163,40 @@ p{
             margin-top: 50px;
         }
         .img1 {
-            background-image: url(../img/portada.jpg);
+            background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/portada.jpg);
             background-position: center;
             height: 100vh;
             background-size: cover;
         }
         .img2 {
-            background-image: url(../img/portada.jpg);
+            background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slider_2.jpg);
             background-position: center;
             height: 100vh;
             background-size: cover;
         }
         .img3 {
-            background-image: url(../img/portada.jpg);
+            background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/portada.jpg);
             background-position: center;
             height: 100vh;
             background-size: cover;
         }
 
         .carousel-caption {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            width: 50%;
-            text-align: left;
+            
+            padding: 20px;            
+            text-align: center;
+            
         }
-
+        .carousel-caption h2{
+            font-size: 60px;
+            text-align: center;
+        }
         .carousel-caption h3 {
-            text-align: left;
+            text-align: center;
             font-size: 50px;
             font-weight: 400;
             font-style: normal;    
+            margin-bottom: 20px;
             background-color: rgba(0, 0, 0, 0.0);   
         }
         .carousel-caption p{
@@ -206,6 +210,11 @@ p{
             padding: 10px;
             text-align: left;
             text-decoration: none;
+        }
+
+        .btn-slider {
+            margin-left: 20px;
+            padding: 15px 5px;
         }
 
 
@@ -267,14 +276,15 @@ p{
         
 .galeria {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 180px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 180px);
     grid-template-areas: 
-    "img1 img2 img3 img3"
-    "img1 img4 img5 img6"
-    "img7 img4 img8 img8";
+    "img1 img2 img5"
+    "img1 img4 img5"
+    "img7 img4 img8"
+    "img3 img6 img8";
     gap: 5px;
-    padding: 20px;
+    
 
 }
 
@@ -346,17 +356,19 @@ p{
     padding-top: 20px;    
     background-color: #f6f6f6;
     box-shadow:
-    0.8px 0.8px 1.9px rgba(0, 0, 0, 0.018),
-    1.9px 1.9px 4.3px rgba(0, 0, 0, 0.026),
-    3.4px 3.5px 7.7px rgba(0, 0, 0, 0.032),
-    5.6px 5.8px 12.8px rgba(0, 0, 0, 0.038),
-    9.3px 9.5px 21.2px rgba(0, 0, 0, 0.044),
-    16.2px 16.6px 37px rgba(0, 0, 0, 0.052),
-    35px 36px 80px rgba(0, 0, 0, 0.07);
+    0.1px 0.1px 0.4px rgba(0, 0, 0, 0.017),
+    0.3px 0.3px 0.9px rgba(0, 0, 0, 0.024),
+    0.5px 0.5px 1.6px rgba(0, 0, 0, 0.03),
+    0.8px 0.8px 2.5px rgba(0, 0, 0, 0.035),
+    1.2px 1.2px 3.9px rgba(0, 0, 0, 0.04),
+    1.8px 1.8px 6px rgba(0, 0, 0, 0.046),
+    3px 3px 10px rgba(0, 0, 0, 0.053),
+    6px 6px 20px rgba(0, 0, 0, 0.07)
+  ;
     height: 80%; 
     padding-bottom: 20px;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .feature-item:hover {
@@ -378,6 +390,31 @@ p{
     text-align: center;
 }
 
+footer {
+    background-image: linear-gradient(to bottom left, #206E63, rgb(76, 223, 154));    color:#f6f6f6;
+    padding: 40px;
+}
+footer ul{
+    list-style-type: none;        
+    text-align: left;
+    padding: 0px;
+}
+footer li {
+    padding: 5px 20px;
+}
+footer a{
+    text-decoration: none;
+    text-align: left;
+    color: #f6f6f6;
+}
+
+footer h3{
+    font-size: 20px;
+}
+.redes {
+    margin-left: 30px;
+}
+
         @media only screen and (min-width: 768px) {
             .bg-about {
                 background-image: url(../img/fondo-about.jpg);
@@ -390,6 +427,19 @@ p{
             .habitaciones h2{
                 font-family: "Montaga", serif;
                 font-size: 60px;
+            }
+
+            .galeria {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(3, 180px);
+                grid-template-areas: 
+                "img1 img2 img5 img3"
+                "img1 img4 img5 img6"
+                "img7 img4 img8 img6";
+                gap: 5px;
+                padding: 20px;
+            
             }
         }
         

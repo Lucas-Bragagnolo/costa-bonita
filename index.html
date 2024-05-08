@@ -77,52 +77,52 @@
 </header>
 
 <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<main>
+    <div class="container-fluid">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <!-- Indicadores -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <!-- Indicadores 
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>-->
+          
+            <!-- SLIDER -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="img1"></div>  
+                    <div class="carousel-caption">
+                        <img src="./img/logo_grande_blanco.png"   alt="">
+                        <div class="call"><a href="#nosotros" class="btn rounded-pill btn-lg">Conocénos</a></div>
+                        
+                    </div>
+                </div>  
+                <div class="carousel-item">
+                    <div class="img2"></div>  
+                    <div class="carousel-caption">
+                        <h2>Villa Gesell te está esperando!</h2>
+                        <h3>Vení a vivir la experiencia!</h3>
+                        <div class="call">
+                            <a href="#nosotros" class="btn rounded-pill btn-lg btn-slider">Reservá</a>&nbsp;
+                            <a href="#nosotros" class="btn rounded-pill btn-lg btn-slider">Conocénos</a>
+                        </div>
+                    </div>
+                </div>  
+         
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        </div>
     </div>
-  
-    <!-- SLIDER -->
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="img1"></div>  
-            <div class="carousel-caption">
-                <h3>Hostería</h3>
-                <h1>Costa bonita</h1>
-                <p>Villa gesell te está esperando!</p>
-                <a href="#nosotros" class="btn rounded-pill btn-lg">Conocénos</a>
-            </div>
-        </div>  
-        <div class="carousel-item">
-            <div class="img2"></div>  
-            <div class="carousel-caption">
-                <h2>Hostería</h2>
-                
-                <p>Envios a todo el país</p>
-                <a href="./pages/tienda.html" class="boton-call">Visitá la tienda </a>
-            </div>
-        </div>  
-        <div class="carousel-item">
-            <div class="img3"></div>  
-            <div class="carousel-caption">
-                <h3>Costa bonita <span>Villa gesell</span></h3>
-                <p>Envios a todo el país</p>
-                <a href="./pages/tienda.html" class="boton-call">Visitá la tienda </a>
-            </div>
-        </div>  
-    <!-- Controles -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-    </button>
-</div>
-</div>
+
+</main>
+
 
 <section class="about p-5  bg-about" id="nosotros">
     <div class="container">
@@ -142,10 +142,10 @@
                 </div>
                 <a href="#habitaciones" class="btn rounded-pill btn-about btn-lg">Conocénos</a>
             </div>
-            <div class="col-lg-6 col-12 mt-4" data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500">
+            <div class="col-lg-6 col-12 mt-4" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="500"
+            data-aos-offset="0">
                 <div class="row">
                     <div class="col-lg-6 col-6">
                         <img src="./img/img_2.jpg" alt="" width="100%" class="rounded">
@@ -163,9 +163,7 @@
     </div>
 </section>
 <section class="habitaciones">
-    <div class="container">
-        
-
+    <div class="container">        
         <h3 class="text-center mt-4 underline">Nuestras opciones</h3>
         <h2 class="text-center" data-aos="fade-down">Habitaciones</h2>
         <div class="row" data-aos="zoom-in" data-aos-duration="800">
@@ -196,7 +194,7 @@
         </div>
         
         <h3 class="text-center mt-4 mb-4">Todas las habitaciones cuentan con</h3>
-        <div class="row">
+        <div class="row" data-aos="fade-up">
             <div class="col-lg-3 col-md-3 col-6">
                 <div class="feature-item">
                     <h4><i class="fa-solid fa-wifi"></i></h4>
@@ -257,18 +255,51 @@
     </div>
 </section>
 
-<section class="galeria">
-    <div class="item item1"></div>
-    <div class="item item2"></div>
-    <div class="item item3"></div>
-    <div class="item item4"></div>
-    <div class="item item5"></div>
-    <div class="item item6"></div>
-    <div class="item item7"></div>
-    <div class="item item8"></div>
+<section >
+    <div class="container-fluid galeria">
+        <div class="item item1" ></div>
+        <div class="item item2" ></div>
+        <div class="item item3" ></div>
+        <div class="item item4" ></div>
+        <div class="item item5" ></div>
+        <div class="item item6" ></div>
+        <div class="item item7" ></div>
+        <div class="item item8" ></div>
+    </div>
+
 
 </section>
-
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-xs-12">
+                <img src="./img/logo_blanco_transparente.png" class="logo-footer">                
+                <div class="redes">
+                  <a href="#" class="boton-accion"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="#" class="boton-accion"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#" class="boton-accion"><i class="fa-brands fa-tiktok"></i></a>
+                  <a href="#" class="boton-accion"><i class="fa-solid fa-location-dot"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 text-white">
+                <h3>Reservas e informacion</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i>&nbsp;+54 9 2255462457</a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i>&nbsp;+54 9 2255 419080</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i>&nbsp;info@gesellcostabonita.com.ar</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+                <h3>Accesos rápidos</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Habitaciones</li>
+                    <li><a href="#">Contacto</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/wow.min.js"></script>
