@@ -47,6 +47,10 @@ p{
     font-family: "PT Sans Caption", sans-serif;
 }
 
+.carousel-inner{
+    width: 100%;
+}
+
 .carousel-inner h3{
     font-family: "Montaga", serif;
 }
