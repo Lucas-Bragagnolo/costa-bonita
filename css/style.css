@@ -165,19 +165,19 @@ p{
         .img1 {
             background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/portada.jpg);
             background-position: center;
-            height: 100vh;
+            height: 50vh;
             background-size: cover;
         }
         .img2 {
             background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slider_2.jpg);
             background-position: center;
-            height: 100vh;
+            height: 50vh;
             background-size: cover;
         }
         .img3 {
             background-image: linear-gradient(45deg, rgba(156, 156, 156, 0.4), rgba(0, 0, 0, 0.4)), url(../img/portada.jpg);
             background-position: center;
-            height: 100vh;
+            height: 50vh;
             background-size: cover;
         }
 
@@ -210,6 +210,9 @@ p{
             padding: 10px;
             text-align: left;
             text-decoration: none;
+        }
+        .carousel-logo{
+            width: 100%;
         }
 
         .btn-slider {
@@ -447,6 +450,20 @@ footer h3{
             }
             .carousel-caption h3 {
                 font-size: 40px;
+            }
+
+            .carousel-logo {
+                width: auto;
+            }
+
+            .img1 {
+                height: 100vh;
+            }
+            .img2 {
+                height: 100vh;
+            }
+            .img3 {
+                height: 100vh;
             }
         }
         
