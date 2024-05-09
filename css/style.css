@@ -327,7 +327,7 @@ p{
 
 .item2 {
     grid-area: img2;
-    background-image: url(../img/img_2.jpg);
+    background-image: url(../img/habitacion_triple.jpg);
 
 }
 .item3 {
@@ -338,17 +338,17 @@ p{
 
 .item4 {
     grid-area: img4;
-    background-image: url(../img/img_5.jpg);
+    background-image: url(../img/hall_hotel.jpg);
 
 }
 .item5 {
     grid-area: img5;
-    background-image: url(../img/img_4.jpg);
+    background-image: url(../img/habitacion_cuadruple.jpg);
 }
 
 .item6 {
     grid-area: img6;
-    background-image: url(../img/img_2.jpg);
+    background-image: url(../img/habitacion_triple.jpg);
 
 }
 .item7 {
@@ -357,7 +357,7 @@ p{
 }
 .item8 {
     grid-area: img8;
-    background-image: url(../img/img_5.jpg);
+    background-image: url(../img/parrilla.jpg);
 
 }
 
