@@ -460,7 +460,8 @@ p{
     
 
 footer {
-    background-image: linear-gradient(to bottom left, #206E63, rgb(76, 223, 154));    color:#f6f6f6;
+    background-image: linear-gradient(to bottom left, #206E63, rgb(76, 223, 154));  
+    color:#f6f6f6;
     padding: 40px;
 }
 footer ul{
@@ -510,6 +511,39 @@ footer h3{
     transition: 0.3s;
 }
 
+.mt-100{
+    margin-top: 160px;
+}
+/* Habitacion doble */
+
+.video-habitacion{
+    width: 100%;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+.contacto {
+    background-image: linear-gradient(45deg, rgba(73, 73, 73, 0.4), rgba(0, 0, 0, 0.7)), url(../img/slider_2.jpg);
+    height: auto + 20px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.contacto h3{
+    font-size: 40px;
+}
+
+.contacto h4 {
+    font-size: 25px;
+}
+
+.bg-whithe{
+    background-color: #f6f6f6;
+}
+
+
         @media only screen and (min-width: 768px) {
             .bg-about {
                 background-image: url(../img/fondo-about.jpg);
@@ -556,6 +590,7 @@ footer h3{
             .img3 {
                 height: 100vh;
             }
+
 
         }
         
