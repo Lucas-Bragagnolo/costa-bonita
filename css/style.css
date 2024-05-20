@@ -186,8 +186,7 @@ p{
             background-size: cover;
         }
 
-        .carousel-caption {
-            
+        .carousel-caption {            
             padding: 20px;            
             text-align: center;
             
@@ -216,6 +215,8 @@ p{
             text-align: left;
             text-decoration: none;
         }
+
+
         .carousel-logo{
             width: 100%;
         }
@@ -270,6 +271,17 @@ p{
         }
         .habitaciones h3{
             font-size: 16px;            
+        }
+
+        .card a{
+            text-decoration: none;
+            transition: all 0.3s;
+
+        }
+
+        .card a:hover {
+            transform: scale(1.03);
+            transition: all 0.3s;
         }
 
         .underline {
@@ -449,6 +461,7 @@ p{
     .testimonal-desc p {
         padding: 0px 10px;
         height: 200px;
+        overflow: hidden;
     }
 
     
@@ -682,6 +695,20 @@ main h2 {
                 font-size: 70px;
             }
             
+        }
+
+        @media only screen and (max-width: 480px){
+            .carousel-caption {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                height: 100%;
+            }
+            .carousel-caption img{
+                width: 150%;
+            }
         }
         
 
