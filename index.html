@@ -60,13 +60,8 @@
                 <li class="nav-item active">
                 <a class="nav-link" href="./index.html">Inicio</a>
                 </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Habitaciones</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./pages/habitacion_doble.html">Dobles</a></li>
-                    <li><a class="dropdown-item" href="./pages/habitacion_triple.html">Triples</a></li>
-                    <li><a class="dropdown-item" href="./pages/habitacion_cuadruple.html">Cuádruples</a></li>
-                </ul>
+                <li class="nav-item">
+                <a class="nav-link" href="#habitaciones">Habitaciones</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#promociones">Promociones</a>
@@ -156,14 +151,39 @@
             data-aos-delay="500"
             data-aos-offset="0">
                 <div class="row">
-                    <div class="col-lg-6 col-6">
-                        <img src="./img/img_2.jpg" alt="" width="100%" class="rounded">
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <img src="./img/img_2.jpg" alt=""  width="100%"  class="rounded">
-                    </div>
                     <div class="col-lg-12 col-12 mt-4">
-                        <img src="./img/portada.jpg" alt=""  width="100%"  class="rounded">
+                        <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicadores 
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            </div>-->
+                          
+                            <!-- SLIDER -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="img4"></div>  
+                                </div>  
+                                <div class="carousel-item">
+                                    <div class="img5"></div>  
+                                </div>  
+                                <div class="carousel-item">
+                                    <div class="img6"></div>  
+                                </div>  
+                                <div class="carousel-item">
+                                    <div class="img7"></div>  
+                                </div>  
+                            <!-- Controles -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,7 +191,7 @@
         
     </div>
 </section>
-<section class="habitaciones">
+<section class="habitaciones" id="habitaciones">
     <div class="container">        
         <h3 class="text-center mt-4 underline">Nuestras opciones</h3>
         <h2 class="text-center" data-aos="fade-down">Habitaciones</h2>
@@ -179,7 +199,7 @@
             <div class="col-lg-4 col-12 mt-4">
                 <div class="card ml-20 ">
                     <a href="./pages/habitacion_doble.html">
-                        <img class="card-img-top" src="./img/img_4.jpg" alt="Card image">
+                        <img class="card-img-top" src="./img/habitacion_7.jpeg" alt="Card image">
                         <div class="card-body">
                         <h4 class="card-title text-center text-white">Dobles</h4>
                     </a>
@@ -190,9 +210,9 @@
             <div class="col-lg-4 col-12 mt-4">
                 <div class="card ml-20">
                     <a href="./pages/habitacion_triple.html">
-                        <img class="card-img-top" src="./img/img_4.jpg" alt="Card image">
+                        <img class="card-img-top" src="./img/habitaciontriple.jpeg" alt="Card image">
                         <div class="card-body">
-                        <h4 class="card-title text-center text-white">Dobles</h4>
+                        <h4 class="card-title text-center text-white">Triples</h4>
                     </a>
                 </div>
                 </div>
@@ -200,7 +220,7 @@
             <div class="col-lg-4 col-12 mt-4">
                 <div class="card ml-20">
                     <a href="./pages/habitacion_cuadruple.html">
-                        <img class="card-img-top" src="./img/img_4.jpg" alt="Card image">
+                        <img class="card-img-top" src="./img/habitacion_cuadruple.jpg" alt="Card image">
                         <div class="card-body">
                         <h4 class="card-title text-center text-white">Cuádruples</h4>
                     </a>
@@ -275,7 +295,7 @@
         <div class="row">
             <h2 class="text-center mb-4 mt-4 montaga-regular">Promociones</h2>
             <!-- Inicio Promocion 1 -->
-            <div class="col-lg-3 col-6">
+            <div class="col-lg-3 col-12 mb-4">
                 <div class="promocion border">
                     <h4>1 noche</h4>
                     <h3>Marzo</h3>
@@ -296,7 +316,7 @@
             <!-- FIN PROMOCION -->
 
             <!-- Inicio Promocion 2 -->
-            <div class="col-lg-3 col-6 mb-4">
+            <div class="col-lg-3 col-12 mb-4">
                 <div class="promocion border">
                     <h4>3 noches</h4>
                     <h3>Marzo</h3>
@@ -316,7 +336,7 @@
             </div>
             <!-- Fin promocion -->
             <!-- Inicio Promocion 3 -->
-            <div class="col-lg-3 col-6 ">
+            <div class="col-lg-3 col-12 mb-4">
                 <div class="promocion border">
                     <h4>5 noches</h4>
                     <h3>Marzo</h3>
@@ -336,7 +356,7 @@
             </div>
             <!-- Fin Promocion -->
             <!-- Inicio Promocion 4 -->
-            <div class="col-lg-3 col-6">
+            <div class="col-lg-3 col-12 mb-4">
                 <div class="promocion border">
                     <h4>5 noches</h4>
                     <h3>Semana Santa</h3>
@@ -360,6 +380,16 @@
 </section>
 <section >
     <div class="container-fluid galeria">
+        <div class="item habitacion-doble1" ></div>
+        <div class="item habitacion-doble2" ></div>
+        <div class="item habitacion-doble3" ></div>
+        <div class="item habitacion-doble4" ></div>
+        <div class="item habitacion-doble5" ></div>
+        <div class="item habitacion-doble6" ></div>
+        <div class="item habitacion-doble7" ></div>
+        <div class="item habitacion-doble8" ></div>
+    </div>
+    <div class="container-fluid galeria">
         <div class="item item1" ></div>
         <div class="item item2" ></div>
         <div class="item item3" ></div>
@@ -369,6 +399,7 @@
         <div class="item item7" ></div>
         <div class="item item8" ></div>
     </div>
+
 
 
 </section>
@@ -382,7 +413,7 @@
                 <div class="owl-carousel owl-theme" data-aos="fade-down">
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Mariana Torresans</h3>
                                 <div class="puntuacion text-center">
@@ -401,7 +432,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Fernanda Tirelli</h3>
                                 <div class="puntuacion text-center">
@@ -420,7 +451,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Gabriela Armenti</h3>
                                 <div class="puntuacion text-center">
@@ -439,7 +470,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Valeria Acampora</h3>
                                 <div class="puntuacion text-center">
@@ -458,7 +489,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Daiana Cristaldo</h3>
                                 <div class="puntuacion text-center">
@@ -477,7 +508,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Alejandro Dobler</h3>
                                 <div class="puntuacion text-center">
@@ -496,7 +527,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Vanesa S</h3>
                                 <div class="puntuacion text-center">
@@ -515,7 +546,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Edgardo Luna</h3>
                                 <div class="puntuacion text-center">
@@ -534,7 +565,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Omar Melendrez</h3>
                                 <div class="puntuacion text-center">
@@ -553,7 +584,7 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
+
                             <div class="testimonal-desc">
                                 <h3>Marcelo Czerweny</h3>
                                 <div class="puntuacion text-center">
@@ -572,7 +603,6 @@
                     <!-- Fin Reseña usuario -->
                     <div class="item">
                         <div class="testimonial-card">
-                            <div class="testimonial-img testimonio-1"></div>
                             <div class="testimonal-desc">
                                 <h3>Carmen Achucarro</h3>
                                 <div class="puntuacion text-center">
