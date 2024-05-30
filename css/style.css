@@ -355,18 +355,18 @@ p{
 
 .item1 {
     grid-area: img1;
-    background-image: url(../img/img_2.jpg);
+    background-image: url(../img/frente1.jpeg);
 
 }
 
 .item2 {
     grid-area: img2;
-    background-image: url(../img/habitacion_triple.jpg);
+    background-image: url(../img/img2.jpeg);
 
 }
 .item3 {
     grid-area: img3;
-    background-image: url(../img/img_4.jpg);
+    background-image: url(../img/img4.jpeg);
 
 }
 
@@ -387,7 +387,7 @@ p{
 }
 .item7 {
     grid-area: img7;
-    background-image: url(../img/portada.jpg);
+    background-image: url(../img/playa.jpeg);
 }
 .item8 {
     grid-area: img8;
