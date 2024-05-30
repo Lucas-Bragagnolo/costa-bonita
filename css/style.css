@@ -188,25 +188,25 @@ p{
         .img4 {
             background-image:  url(../img/img1.jpeg);
             background-position: top;
-            height: 80vh;
+            height: 40vh;
             background-size: cover;
         }
         .img5 {
             background-image:  url(../img/img2.jpeg);
             background-position: center;
-            height: 80vh;
+            height: 40vh;
             background-size: cover;
         }
         .img6 {
             background-image:  url(../img/img3.jpeg);
             background-position: center;
-            height: 80vh;
+            height: 40vh;
             background-size: cover;
         }
         .img7 {
             background-image:  url(../img/img5.jpeg);
             background-position: center;
-            height: 80vh;
+            height: 40vh;
             background-size: cover;
         }
 
@@ -845,6 +845,31 @@ main h2 {
             
             .descripcion h3 span{
                 font-size: 70px;
+            }
+
+            .img4 {
+                background-image:  url(../img/img1.jpeg);
+                background-position: top;
+                height: 80vh;
+                background-size: cover;
+            }
+            .img5 {
+                background-image:  url(../img/img2.jpeg);
+                background-position: center;
+                height: 80vh;
+                background-size: cover;
+            }
+            .img6 {
+                background-image:  url(../img/img3.jpeg);
+                background-position: center;
+                height: 80vh;
+                background-size: cover;
+            }
+            .img7 {
+                background-image:  url(../img/img5.jpeg);
+                background-position: center;
+                height: 80vh;
+                background-size: cover;
             }
             
         }
