@@ -573,7 +573,7 @@ p{
         font-size: 16px;
     }
     .bg-testimonial {
-        background-image: linear-gradient(45deg, rgba(73, 73, 73, 0.4), rgba(0, 0, 0, 0.7)), url(../img/portada.jpg);
+        background-image: linear-gradient(45deg, rgba(73, 73, 73, 0.4), rgba(0, 0, 0, 0.7)), url(../img/playa.jpeg);
         background-position: center;
         height: auto;
         background-size: cover;
@@ -773,10 +773,11 @@ main h2 {
 }
 
 .contacto {
-    background-image: linear-gradient(45deg, rgba(73, 73, 73, 0.4), rgba(0, 0, 0, 0.7)), url(../img/slider_2.jpg);
+    background-image: linear-gradient(45deg, rgba(73, 73, 73, 0.4), rgba(0, 0, 0, 0.7)), url(../img/frente1.jpeg);
     height: auto + 20px;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .contacto h3{
