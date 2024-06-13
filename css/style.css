@@ -264,6 +264,13 @@ p{
             background-position: center;
             background-size: cover;
             
+        }        
+        .about-descipcion p{
+            text-align: center;
+        }
+        .about-descipcion a {
+            text-align: center;
+            width: 100%;
         }
         .bg-about {
             background-image: url(../img/fondo-about-mobile.jpg);
@@ -273,7 +280,8 @@ p{
         .btn-about {
             background-color: #f6f6f6;
             color: #206E63; 
-            transition: 0.2s;           
+            transition: 0.2s;   
+            text-align: center;      
         }
         .btn-about:hover {
             border: 2px solid #f6f6f6;
@@ -793,6 +801,8 @@ main h2 {
 }
 
 
+
+
         @media only screen and (min-width: 768px) {
             .bg-about {
                 background-image: url(../img/fondo-about.jpg);
@@ -806,7 +816,12 @@ main h2 {
                 font-family: "Montaga", serif;
                 font-size: 60px;
             }
-
+            .about-descipcion p {
+                text-align: left;
+            }
+            .about-descipcion a {
+                width: auto;
+            }
             .galeria {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
