@@ -800,7 +800,12 @@ main h2 {
     background-color: #f6f6f6;
 }
 
-
+.contacto-fin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
         @media only screen and (min-width: 768px) {
@@ -886,6 +891,9 @@ main h2 {
                 background-position: center;
                 height: 80vh;
                 background-size: cover;
+            }
+            .contacto-fin {
+                
             }
             
         }
